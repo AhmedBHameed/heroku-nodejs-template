@@ -46,7 +46,7 @@
     },
     "lint-staged": {
         "*.{ts}": [
-            "npm run lint:r:fix"
+            "pwd && npm run lint:r:fix"
         ]
     }
 }
