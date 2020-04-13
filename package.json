@@ -46,7 +46,7 @@
     },
     "lint-staged": {
         "src/**/*.(ts)": [
-            "yarn --silent lint:r:fix"
+            "npm run lint:r:fix"
         ]
     }
 }
