@@ -46,8 +46,7 @@
     },
     "lint-staged": {
         "src/app/**/*.(ts)": [
-            "npm run --silent lint:r:fix",
-            "git add"
+            "npm run --silent lint:r:fix"
         ]
     }
 }
