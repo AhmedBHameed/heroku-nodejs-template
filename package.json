@@ -45,7 +45,7 @@
         }
     },
     "lint-staged": {
-        "src/**/*.{ts}": [
+        "*.{ts}": [
             "npm run lint:r:fix"
         ]
     }
