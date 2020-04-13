@@ -46,8 +46,7 @@
     },
     "lint-staged": {
         "*.(ts)": [
-            "npm run lint:r:fix",
-            "git add"
+            "npm run lint:r:fix"
         ]
     }
 }
