@@ -12,7 +12,7 @@
         "build": "webpack -p --env=prod",
         "start": "webpack --watch -d --env=dev",
         "prod": "webpack --watch -p --env=prod",
-        "lint:r": "eslint --ext .ts",
+        "lint:r": "eslint src/ --ext .ts",
         "lint:r:fix": "npm run lint:r -- --fix"
     },
     "dependencies": {
