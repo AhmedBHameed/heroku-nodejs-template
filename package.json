@@ -45,8 +45,9 @@
         }
     },
     "lint-staged": {
-        "*.{ts}": [
-            "pwd && npm run lint:r:fix"
+        "src/**/*.{ts}": [
+            "npm run --silent lint:r:fix",
+            "git add"
         ]
     }
 }
