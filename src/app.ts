@@ -10,6 +10,7 @@ app.get('/', (req: any, res: Response) => {
     res.set('Content-Type', 'text/html').sendFile(resolve('./public/index.html'));
 });
 
+var foo = someFunction();
 app.listen(PORT, function () {
     console.log(`App is running at http://localhost:${PORT}`);
 });
